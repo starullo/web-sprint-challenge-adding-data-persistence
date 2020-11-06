@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/starullo/web-sprint-challenge-adding-data-persistence/issues"
   },
-  "homepage": "https://github.com/starullo/web-sprint-challenge-adding-data-persistence#readme"
+  "homepage": "https://github.com/starullo/web-sprint-challenge-adding-data-persistence#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "knex-cleaner": "^1.3.1",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
